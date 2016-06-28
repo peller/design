@@ -10,7 +10,7 @@ Example:
 @element survey-explorer
 -->
 <dom-module id="survey-explorer">
-    <template is="dom-bind">
+    <template>
         <style>
         .select-bar {
           background-color: #ddd; padding: 10px;
@@ -71,8 +71,7 @@ Example:
         </div>
         <content></content>
     </template>
-</dom-module>
-<script>
+    <script>
     'use strict';
     Polymer({
         is: 'survey-explorer',
@@ -123,4 +122,5 @@ Example:
             return text;
         }
     });
-</script>
+    </script>
+</dom-module>
